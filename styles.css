@@ -10,10 +10,12 @@ body {
   background-color: #f4f4f4;
   color: #333;
 }
+
 h2,
 h3 {
   margin: 10px 0;
 }
+
 input {
   padding: 8px;
   margin: 10px 0;
@@ -21,6 +23,7 @@ input {
   border-radius: 4px;
   width: 200px;
 }
+
 button {
   padding: 8px 16px;
   border: none;
@@ -30,14 +33,35 @@ button {
   cursor: pointer;
   font-size: 14px;
 }
+
 button:hover {
   background-color: #0056b3;
 }
+
 ul {
   list-style: none;
   padding: 0;
   margin: 10px 0;
 }
+
 li {
   padding: 5px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.borrar {
+  padding: 4px 8px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+button.borrar:hover {
+  background-color: darkred;
 }
